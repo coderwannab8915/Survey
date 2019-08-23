@@ -1,0 +1,34 @@
+body {
+  border: 30px solid aquamarine;
+  margin: 50px;
+  padding: 75px;
+  text-align: left; 
+}
+h1 {
+  text-align:center; 
+}
+.name {
+  margin: 10px 0 10px 0;
+}
+.age {
+  margin: 10px 0 10px 0; 
+}
+
+.userRatings {
+  text-align: left; 
+}
+
+.recommend {
+  margin-top: 15px; 
+  line-height: 25px; 
+}
+#submit {
+  margin-top: 20px;
+}
+#comments {
+  height: 80px; 
+  margin-top: 20px; 
+}
+ul {
+  list-style:none; 
+}
