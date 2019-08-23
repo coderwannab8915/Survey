@@ -1,0 +1,81 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+</head>
+<body>
+	<h1 id="title">Survey Form</h1>
+
+	<p id="description">Complete this survey to tell us how we're doing!</p>
+
+	<div>
+	 <form id="survey-form"> 	
+     <div class="name">
+		<label id="name-label" for="name">Name: </label>
+		<input id="name" type="text" name="name" placeholder="Name" class="input-field" required>
+     </div>
+     <div class="email">
+  	<label id="email-label" for="email">E-mail Address: </label>	     
+    <input id="email" type="email" placeholder="E-mail" class="input-field" required>
+  </div>
+    <div class="age">
+    <label id="number-label" for="age">Age: </label>
+		<input id="number" type="number" placeholder="Age" class="input-field" min="1" max="99" required>
+	</div>
+    
+  <div>
+    <label id="dropdown">Describe your current role:  
+      <select name="role">
+        <option>Full Time Job</option>
+        <option>In School</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+    </label>
+  </div>
+    <div class="recommend">
+	    <label for="radio-buttons">How likely would you be to recommend FreeCodeCamp to your peers? </label>
+       <div class="userRatings">
+         <label><input name="radio-buttons" value="1" type="radio" class="userRatings">Highly Likely</label></br>
+      
+        <label><input name="radio-buttons" value="2" type="radio" class="userRatings">Maybe</label><br/>
+      
+        <label><input name="radio-buttons" value="3" type="radio" class="userRatings">Not Likely At All</label>
+      </div>  
+  </div>
+     
+    <div>
+      <p>What are you interested in learning from FreeCodeCamp? Check all that apply.</p>
+      
+    <ul>  
+      <li><input type="checkbox" name="front" value="1">
+        <label for="front">Front-End Development</label></li>
+      
+      <li><input type="checkbox" name="responsive" value="2"> 
+        <label for="back">Responsive Web Design</label></li>
+      
+      <li><input type="checkbox" name="javascript" value="3">
+        <label for="front">Javascript Algorithms and Data Structures</label></li>
+      
+       <li><input type="checkbox" name="data" value="4">
+        <label for="front">Data Visualization</label></li>
+      
+       <li><input type="checkbox" name="apis" value="5">
+        <label for="front">Apis and Microservices</label></li>
+      
+       <li><input type="checkbox" name="isqa" value="6">
+         <label for="front">Information Security And Quality Assurance</label></li>      
+    </div>  
+      
+      <div>
+          <textarea id="comments" placeholder="Enter comments here:"></textarea>
+      </div>
+     <div>
+    <button id="submit" type="submit">Submit</button>  
+    </div>
+      </form>
+</body>
+</html>
